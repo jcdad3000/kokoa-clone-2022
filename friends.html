@@ -6,10 +6,10 @@
     <title>Friend-Kokoa Clone</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        
         <span> No Service </span>
         <i class="fa-solid fa-wifi"></i>
       </div>
@@ -34,48 +34,50 @@
     </header>
 
     <a id="friends-display-link"
-      ><i class="fas fa-info-circle"></i> Friends' Names Display  <i class="fas fa-chevron-right fa-xs"></i></a
-    ></i>
+      ><i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i
+    ></a>
 
     <main class="friends-screen">
-      <div class="user-component"> 
+      <div class="user-component">
         <div class="user-component__column">
-          <img src="./screenshots/airplane.png" class="user-component__avatar user-component__avatar--xl" />
+          <img
+            src="./screenshots/airplane.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
           <div class="user-component__text">
             <h4 class="user-component__title">Youngjin Kim</h4>
-            <!--<h6 class="user-component__subtitle">this text whatever</h6>--> 
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
           </div>
         </div>
-        <div class="user-component__column">
-  
-        </div>
+        <div class="user-component__column"></div>
       </div>
 
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
           <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i> 
-          <div class="user-component"> 
-            <div class="user-component__column">
-              <img src="./screenshots/airplane.png" class="user-component__avatar user-component__avatar--sm" />
-              <div class="user-component__text">
-                <h4 class="user-component__title">Channel</h4>
-                
-              </div>
-            </div>
-            <div class="user-component__column">
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i> 
-
-            </div>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="./screenshots/airplane.png"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Channel
+            </h4>
           </div>
+        </div>
+        <div class="user-component__column">
+          <span>2</span>
+          <i class="fas fa-chevron-right fa-xs"></i>
         </div>
       </div>
     </main>
 
-    
-
-    
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -93,10 +95,10 @@
           <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
-            ><div class="nav_smalldot"></div>
-            <i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
+          <a class="nav__link" href="#">
+            <div class="nav_smalldot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>
