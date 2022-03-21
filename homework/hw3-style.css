@@ -54,9 +54,10 @@ body {
   position: relative;
   top: 15px;
 
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  flex-wrap: wrap;
   /* flex-direction: row;
   flex-wrap: wrap; */
 }
@@ -65,8 +66,12 @@ body {
 }
 
 .inner-box__text {
-  height: 60px;
+  height: 25%;
+  width: 200px;
   font-size: 25px;
-  position: relative;
-  top: 50%;
+  font-weight: 600;
+}
+
+.inner-box__text:last-child {
+  font-size: 15px;
 }
