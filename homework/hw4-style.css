@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+
+  width: 1000px;
+  height: 550px;
+}
+
+.default-body {
+  width: 600px;
+  height: 500px;
+  background-color: #6bbcbe;
+  margin: 25px 200px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0);
+  }
+
+  35% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  85% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scaleupRect {
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1, 1.8);
+  }
+  40% {
+    transform: scale(1, 1);
+  }
+  60% {
+    transform: scale(1, 1);
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.circle-body__three-circle {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 150px;
+  animation: rotateCircle 1.8s linear infinite;
+}
+.circle-body__circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.rect-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70px;
+  margin-top: 70px;
+}
+
+.rect-body__rect {
+  width: 10px;
+  height: 45px;
+  background-color: white;
+}
+
+.rect-body__rect:first-child {
+  animation: scaleupRect 0.8s ease-out infinite;
+}
+
+.rect-body__rect:nth-child(2) {
+  animation: scaleupRect 0.8s ease-out 0.1s infinite;
+}
+
+.rect-body__rect:nth-child(3) {
+  animation: scaleupRect 0.8s ease-out 0.2s infinite;
+}
+
+.rect-body__rect:nth-child(4) {
+  animation: scaleupRect 0.8s ease-out 0.3s infinite;
+}
+
+.rect-body__rect:nth-child(5) {
+  animation: scaleupRect 0.8s ease-out 0.4s infinite;
+}
