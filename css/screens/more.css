@@ -1,0 +1,18 @@
+.color-red {
+  color: red;
+  margin-left: 10px;
+}
+
+.more-screen .icons-row {
+  margin-top: 30px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
