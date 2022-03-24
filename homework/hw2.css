@@ -1,0 +1,39 @@
+.body {
+  background-color: tomato;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.body__center {
+  width: 280px;
+  height: 280px;
+
+  background-color: wheat;
+
+  /* margin: 200px 300px; */
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 20px;
+  box-sizing: border-box;
+}
+
+.body__center__first,
+.body__center__third {
+  width: 55px;
+  height: 55px;
+  background-color: teal;
+  border: 3px solid white;
+}
+.body__center__second {
+  width: 220px;
+  height: 55px;
+  background-color: teal;
+  border: 3px dashed white;
+}
