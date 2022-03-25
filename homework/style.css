@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: #f5f5f6;
+  padding: 60px;
+  display: flex;
+}
+
+.body-column {
+  border-radius: 10%;
+  width: 360px;
+  height: 800px;
+  background-color: white;
+  padding: 50px 30px;
+}
+
+.body-column:nth-child(2) {
+  margin-left: 30px;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.artist-img img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 5px 7px 5px;
+}
+
+.artist-title {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.artist-subtitle {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: var(--grey);
+}
+
+.artist-buttons {
+  margin-top: 40px;
+  display: flex;
+  height: 50px;
+}
+
+.artist-button {
+  width: 45%;
+  height: 50px;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  font-size: 18px;
+}
+
+.artist-button:first-child {
+  background-color: black;
+  color: white;
+  margin-right: auto;
+}
+
+.artist-button:last-child {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.artist-button:last-child i {
+  margin-right: 5px;
+}
